@@ -5,7 +5,7 @@ public class Main {
    public static void main(String args[]) {
       Main obj = new Main();
       Scanner sc = new Scanner(System.in);
-      System.out.print("Enter a Roman Number in capital letters: ");
+      System.out.print("Enter a Roman Number in capital letters of I and X: ");
       String inputRoman= sc.nextLine();
       System.out.println("The Integer value of given Roman number is:"+obj.romanToInt(inputRoman));
    }
